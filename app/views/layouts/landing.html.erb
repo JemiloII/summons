@@ -1,0 +1,33 @@
+<!doctype html>
+
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Summon is Coming Soon!</title>
+  <%= stylesheet_link_tag :landing %>
+  <%= javascript_include_tag 'landing', :landing %>
+  </head>
+  <body>
+  <div class="gridContainer clearfix">
+  	<div class="splash">
+  			<p class="chicken"><%= image_tag('chicken.png', alt: 'Summon is Coming!') %> </p>
+  			<div class="background"><%= image_tag('background.png' , alt: 'Less Play, More Do') %></div>
+  <footer>
+     <%= yield %>
+
+     
+    </div>
+    <br>
+    <br>
+  <div>
+    <p class="about"> <%= image_tag('about.png', alt: 'About Summon') %></p>
+    <p class="about"> Feel like it's tough to rally your friends? Sick of the endless texts, emails, and facebook events? Summon allows you to quickly and efficiently organize plans with your friends by evaluating your preferences and delivering you recommendations. A few taps and a swipe and you're all set! If you want to hang out, Summon will instantly connect you with friends who want to do the same.</p>
+    </div>
+  </footer>
+  <br>
+</div>
+</body>
+</html>
