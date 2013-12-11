@@ -150,7 +150,7 @@ footer {display: inline-block;
 	margin: auto;
 	bottom:0;}
 
-.email {width:90%;
+.email {width:80%;
 		position:right;
 		margin:auto;
 		padding:0;
@@ -170,7 +170,7 @@ footer {display: inline-block;
 
 input {
 		width:65%;
-		font-family: 'antoniolight';
+		font-family: 'Arial';
 		-webkit-appearance: textfield;
 		background-color: #f1e09e;
 		border: 2px inset;
@@ -196,4 +196,12 @@ input {
 		padding-right:10%;
 		padding-bottom:3%;
 		padding-top: 0;}
-
+.lineup{
+	float: left;
+}
+.lineup:first-child{
+	width: 20%;
+}
+.lineup:last-child{
+	width: 80%;
+};
